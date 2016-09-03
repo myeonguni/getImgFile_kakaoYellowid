@@ -55,8 +55,8 @@ module.exports = function(app, fs)
 			  url: 'https://openapi.naver.com/v1/search/image.xml?query='+param+'&start=1&display=1',
 			  headers: {
 				'User-Agent': 'curl/7.43.0',
-				'X-Naver-Client-Id': '58cukXkjft6cYsUh7kmy',
-				'X-Naver-Client-Secret': 'GSzM_3SjxD'
+				'X-Naver-Client-Id': '', //네이버 OpenAPI에서 발급받은 Client-Id 삽입
+				'X-Naver-Client-Secret': '' //네이버 OpenAPI에서 발급받은 Client-Secret 삽입
 			  }
 			};
 						
