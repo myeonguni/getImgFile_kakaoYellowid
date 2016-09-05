@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 var fs = require("fs")
  
-var server = app.listen(3000, function(){
+var server = app.listen(3100, function(){
  console.log("Express server has started on port 3000")
 });
  
